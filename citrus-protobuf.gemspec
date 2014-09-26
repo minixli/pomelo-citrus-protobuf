@@ -7,14 +7,14 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'citrus-protobuf/version'
 
 Gem::Specification.new do |spec|
-  spec.name        = 'citrus-protobuf'
+  spec.name        = 'pomelo-citrus-protobuf'
   spec.version     = CitrusProtobuf::VERSION
   spec.platform    = Gem::Platform::RUBY
   spec.authors     = ['MinixLi']
   spec.email       = 'MinixLi1986@gmail.com'
-  spec.description = %q{Citrus Protobuf}
-  spec.summary     = %q{Citrus Protobuf}
-  spec.homepage    = 'http://citrus.inspawn.com'
+  spec.description = %q{pomelo-citrus-protobuf is a simple clone of pomelo-protobuf, this gem is empty now and it roles as a stub}
+  spec.summary     = %q{pomelo-protobuf clone written in Ruby using EventMachine}
+  spec.homepage    = 'https://github.com/minixli/pomelo-citrus-protobuf'
   spec.license     = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
